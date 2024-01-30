@@ -3,6 +3,9 @@
   .inner {
     max-width: 1024px;
   }
+  .promotion .inner{
+    height: 275px;
+  }
 }
 @media screen and (max-width: 1024px) {
   .inner {
@@ -12,11 +15,52 @@
     max-width: 760px;
     border-bottom: 8px solid #f0f4f4;
   }
+  .sw-bt{
+    display: none;
+  }
+  .wrap > section{
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .section-top > h2{
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 0;
+  }
+  .section-top >p{
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .section-top .btns {
+    margin: 15px 0;
+    white-space: nowrap;
+
+  }
+  .section-top .btns a{
+    line-height: 34px;
+    padding: 0 14px;
+    margin-right: 5px;
+  }
+  .bt-link-shop{
+    line-height: 48px;
+    font-size: 15px;
+    border-radius: 3px;
+    display: block;
+    /* width: 50%; */
+    width: 100%;
+  }
+  .quick-menu{
+    display: block;
+    padding-bottom: 0;
+  }
+  .quick-menu .inner{
+    border-bottom: 0;
+  }
   .header{
     border: none;
   }
   .header .inner{
-    padding-top: 30px;
+    padding-top: 15px;
     height: 230px;
   }
  
@@ -67,5 +111,77 @@
     top: 157px;
     left: 50%;
     transform: translatex(-50%);
+  }
+  /* 프로모션 */
+  .promotion .inner{
+    height: 300px;
+  }
+  .promotion .section-top{
+    display: block;
+  }
+  .sw-promotion-control{
+    display: block;
+  }
+  .sw-promotion-pg{
+    margin-top: 10px;
+   
+  }
+  .sw-promotion-pg .sw-promotion-bullet{
+    width: 8px;
+    height: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 0.2;
+    background-color: #000 ;
+  }
+  .sw-promotion-pg .swiper-pagination-bullet-active {
+    opacity: 1;
+    background-color: #e34949;
+  }
+  /* 추천상품 */
+ 
+  .good-info {
+    padding: 10px;
+  }
+  /* 투어추천 */
+  .tour-info{
+    padding: 10px;
+  }
+  .tour-cate{
+    top: -25px;
+    line-height: 22px;
+    padding: 0 7px;
+    border-radius: 4px;
+  }
+  .tour-title{
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 5px;
+  }
+  .tour-price{
+    font-size: 15px;
+  }
+  .tour-place{
+    font-size: 13px;
+  }
+  .tour-price b{
+    font-size: 15px;
+    line-height: 18px;
+  }
+  /*티켓 랭킹 */
+  .ticket-img img{
+    transform: translate(-50%, -50%) scale(1.4);
+  }
+  .sw-ticket .swiper-slide{
+    width: 150px;
+  }
+  .bt-link-shop{
+    margin-top: 10px;
+  }
+  /* 오늘의 도서 */
+  .books-img{
+
+    
   }
 }
